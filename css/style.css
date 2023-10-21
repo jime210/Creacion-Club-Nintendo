@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playpen+Sans&display=swap');
+
+
+
+
+* {
+    margin: 0px;
+    color: rgb(49, 57, 65);
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    padding: 0px;
+    font-weight: 700;/* grosor de la letra*/
+}
+
+.header {
+    background-color: rgb(230, 1, 18);
+    text-decoration-line: none;
+
+    /* nose aplica?*/
+}
+
+video{
+    width: 100%;
+}
+
+h1{
+    color: #000;
+    text-align: left;
+    margin-bottom: 20px;
+
+
+}
+
+h3 {
+    color: #d82424;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+button {
+    color: gray;
+}
+
+.contenedordeproductos{
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (220px, 1fr));
+    width: 70%;
+}
+
+
+
+.contenedordeproductos>div{
+    box-shadow: 0px 0px 5px 0px rgb(84, 104, 168);
+    background-color: rgb(245, 235, 235);
+    border-radius: 20px;
+ 
+}
+
+
+.contenedordeproductos>div:hover{
+    background:hwb(203 42% 29%)
+   
+    
+}
+
+/* ver scroll*/
+.scroll img{
+    filter: invert(15%);
+}
+.scroll h1{
+    color: rgb(180, 74, 124);
+}
+
+
+/*inicio de productos destacados*/
+
+
+.details {
+    width: 300px;
+    border: none;
+}
+
+.details_monster {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+    justify-content: space-evenly;
+}
+.detail_prices{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img{
+    border-radius: 5%;
+}
+
+.cajaproducto {
+    border: solid rgb(28, 60, 129);
+    border-radius: 5%;
+    width: 300px;
+}
+
+.cajaproducto h3 {
+    text-align: center;
+    font-family: 'Lobster', sans-serif;font-family: 'Playpen Sans', cursive;
+    color: black;
+    
+}
+
+.cajaproducto p  {
+    text-align: center;
+    font-family: 'Lobster', sans-serif;font-family: 'Playpen Sans', cursive;
+    color: rgb(30, 34, 39);
+    text-transform: uppercase;
+
+}
+
+.cajaproducto button{
+    background-color: #7ea7c9;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: black;
+    color: black;
+    display: block;
+    margin: 10px auto;
+    padding: 5px 15px;
+    
+
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+
+.cajaproducto button:hover{
+    background-color: rgb(87, 148, 156);
+}
+
+.contenedordeproductos {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    grid-gap: 20px;
+    
+}
+
+
+iframe{
+    margin-bottom: 10px;
+    
+}
+
+/*carrito*/
+
+.carrito{
+    border: 1px solid rgb(36, 36, 37);width: 35%;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: auto;
+    position: static !important;
+    top: 0;
+    transform: .5s;
+
+
+}
+
+.carrito .header-carrito{
+    background-color: #252323;
+    color: rgb(27, 27, 27);
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.carrito .carrito-items{
+    /*display: flex;*/
+    align-items: center;
+    position: relative;
+    /*border-bottom: 1px solid #832727;*/
+    padding: 20px;
+    
+}
+
+.carrito .carrito-items img{
+    margin-right: 20px;
+}
+
+.carrito .carrito-items .carrito-item-detalles{
+    display: block;
+    font-weight: bold;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.carrito .carrito-items .selector-cantidad{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.carrito-items .carrito-item-cantidad{
+    border: none;
+    font-size: 18px;
+    background: transparent;
+    display: inline-block;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*finaliza productos destacados/*
