@@ -348,12 +348,12 @@ iframe{
 /*finaliza productos destacados/*
 
 
-
++
 
 
 /* inicio de formulario*/
 
-.formulario-contenido .{
+.formulario-contenido {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #e06666;
     display: flex;
